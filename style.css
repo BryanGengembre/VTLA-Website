@@ -1,0 +1,265 @@
+nav
+{
+	border-bottom: solid orange;
+	-webkit-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.5);
+box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.5);
+}
+
+@font-face
+{
+	font-family: 'kaushan';
+	src: url('kaushan.otf');
+}
+
+.navbar-brand
+{
+	font-family: 'kaushan'
+}
+
+.bd-placeholder-img
+{
+	height: 500px;
+}
+
+.nav-item
+{
+	color: orange;
+}
+
+.form-control
+{
+	-webkit-box-shadow: inset 0px 0px 5px 0px rgba(148,148,148,1);
+-moz-box-shadow: inset 0px 0px 5px 0px rgba(148,148,148,1);
+box-shadow: inset 0px 0px 5px 0px rgba(148,148,148,1);
+}
+
+.btn-link
+{
+	color: orange;
+	border-right: solid orange 1px;
+	margin-right: 20px;
+}
+
+.btn-link:hover
+{
+	color: red;
+}
+
+.carousel-item
+{
+	margin-top: 50px;
+		height: 600px;
+	
+}
+
+#carouselExampleCaptions
+{
+	height: 600px;
+}
+
+.carousel-caption
+{
+	background-color: rgba(125, 125, 125, 0.7);
+	border-radius: 25px;
+-webkit-box-shadow: inset 0px 0px 25px 3px rgba(179,179,179,1);
+-moz-box-shadow: inset 0px 0px 25px 3px rgba(179,179,179,1);
+box-shadow: inset 0px 0px 25px 3px rgba(179,179,179,1);
+	text-shadow: 0px 0px 2px #000000;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+.aboutme
+{
+	text-align: center;
+	font-family: 'kaushan';
+margin: 50px;
+}
+
+.container img
+{
+	float: left;
+}
+
+.pricing-header
+{
+	clear: both;
+}
+
+.display-4
+{
+	font-family: 'kaushan';
+}
+
+.card1
+{
+	background-color: rgb(238, 232, 170);
+}
+
+.card2
+{
+	background-color: rgb(175,238,238);
+}
+
+.card3
+{
+	background-color: rgb(255, 200, 105);
+}
+
+.card-header1
+{
+	background-color: rgb(230, 225, 130);
+}
+
+.card-header2
+{
+	background-color: rgb(125, 240, 240);
+}
+
+.card-header3
+{
+	background-color: rgb(255, 180, 55);
+}
+
+h3
+{
+	text-align: center;
+	font-family: 'kaushan';
+	margin: 50px;
+}
+
+.containerform
+{
+	margin-top: 100px;
+}
+
+footer
+{
+	margin-top: 50px;
+	border-top: solid orange;
+	padding-top: 30px;
+		-webkit-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.5);
+box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.5);
+}
+
+footer h3
+{
+	margin: 0px;
+	margin-bottom: 15px;
+	color: black;
+}
+
+footer a
+{
+	color: black;
+}
+
+.card-header h4
+{
+	font-family: 'kaushan';
+}
+
+.card-header em
+{
+	font-style: italic;
+}
+
+.available em
+{
+	background-color: green;
+}
+
+thead
+{
+	text-align: center;
+}
+
+.containerform
+{
+	margin-top: 0px;
+}
+
+footer .nav-link
+{
+	padding: 0px;
+}
+
+footer ul
+{
+	list-style-type: none;
+	padding: 0px;
+}
+
+footer .social_media
+{
+	display: inline;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-whatsapp
+{
+	background: #4FCE5D;
+	color: white;
+}
+
+.social_media ul
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	padding: 0px;
+	margin-top: 30px;
+}
+
+.social_media li
+{
+	padding: 15px;
+}
+
+.social_media a:hover
+{
+	color: white;
+	text-decoration: none;
+}
+
+
+@media screen and (max-width: 1024px)
+{
+	table
+	{
+		display: none;
+	}
+}
+
+
+clip-path: polygon(50% 0%, 0% 100%, 100% 74%);
